@@ -1,0 +1,49 @@
+.section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellowgreen; */
+    height: 500px;
+}
+
+.section5>h1{
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.img5{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:560px) {
+
+    .img5>img{
+        height: 170px;
+    }
+}
+
+@media screen and (max-width:930px) {
+    .section5{
+        margin-top: 95px;
+    }
+}
+
+
+@media screen and (max-width:396px) {
+    .section5{
+        margin-top: 35px;
+    }
+}
+
+
+
+@media screen and (max-width:321px) {
+    .section5{
+        margin-top: 185px;
+    }
+}
